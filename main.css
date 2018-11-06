@@ -1,0 +1,12 @@
+/* ---- This is the universal css reset ----*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px solid rgb(200,200,200);
+}
+
+header, footer, section {
+  padding: 5%;
+}
