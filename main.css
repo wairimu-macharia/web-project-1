@@ -10,3 +10,92 @@
 header, footer, section {
   padding: 5%;
 }
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+.intro {
+  font-family: 'Montserrat', sans-serif;
+  background-image: url("img/gilles-lambert-249996.jpg");
+  background-size: cover;
+  text-align:center;
+  padding: 15%;
+}
+
+.text-color-1 {
+  color: #ffc200;
+
+}
+.text-color-2 {
+  color: #ffffff;
+}
+
+.features {
+  background-color: #192b37;
+  background-size: cover;
+  color: #ffffff;
+}
+.title-bg {
+  background-image: url("img/joanna-kosinska-129039.jpg");
+  background-size: cover;
+}
+.benefits-img1 {
+  background-image: url("img/charles-deluvio-351207.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 35%;
+  min-height: 450px;
+}
+.benefits-img2 {
+  background-image: url("img/rhema-kallianpur-275251.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 45% 30%;
+  min-height: 450px;
+}
+.benefits-block {
+  padding: 5%
+}
+.margin-bottom5 {
+  margin-bottom: 5%;
+}
+
+.margin-bottom1 {
+  margin-bottom: 1%;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.left-text {
+  text-align: left;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 900;
+}
+h3 {
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: center;
+}
+h2 {
+  font-size: 2rem;
+  font-weight: 900;
+}
+.text-size {
+  font-size: 4rem;
+  font-weight: 900;
+}
+.body-text {
+  font-size: 2rem;
+}
+.right-text {
+  text-align: right;
+}
+.qoute-icon {
+  font-size: 4rem;
+  font-weight: 900;
+}
