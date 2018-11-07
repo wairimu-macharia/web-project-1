@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid rgb(200,200,200);
+  /* border: 1px solid rgb(200,200,200); */
 }
 
 header, footer, section {
@@ -39,6 +39,16 @@ body{
   background-image: url("img/joanna-kosinska-129039.jpg");
   background-size: cover;
 }
+
+/* Benefits Section */
+.benefits-block {
+  padding: 0;
+}
+
+.benefits-text {
+  padding:5%;
+}
+
 .benefits-img1 {
   background-image: url("img/charles-deluvio-351207.jpg");
   background-size: cover;
@@ -53,9 +63,14 @@ body{
   background-position: 45% 30%;
   min-height: 450px;
 }
-.benefits-block {
-  padding: 5%
+
+
+/* features grid */
+
+.features [class*=col-] {
+  padding: 3%;
 }
+
 .margin-bottom5 {
   margin-bottom: 5%;
 }
@@ -98,4 +113,48 @@ h2 {
 .qoute-icon {
   font-size: 4rem;
   font-weight: 900;
+}
+.contact-form {
+  background-color:#192b37;
+  color: white;
+  padding: 5%;
+
+}
+.contact-form form {
+  padding: 3%;
+  margin: auto;
+
+
+}
+.contact-form input {
+  display: block;
+  width: 600px;
+  padding: 1%;
+  margin: 1% 0;
+
+
+
+}
+.contact-form textarea {
+  width: 600px;
+  min-height: 6vw;
+  padding: 1%;
+
+
+
+  /*--- margin is on the outside; padding is on the inside ---*/
+
+}
+.button{
+  background-color: #ffc200;
+  color: white;
+}
+/* --- targeting a class within a class ---*/
+.contact-form .column {
+  padding-right: 10%;
+}
+input, textarea
+{
+    border-radius: 5px;
+    outline: none;
 }

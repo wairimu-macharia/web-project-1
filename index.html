@@ -5,6 +5,9 @@
   <title>Sleep like a baby website</title>
   <!-- These are my css links, always put your own css last for specificity; all external resources come first eg google fonts, css -->
 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800" rel="stylesheet">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
@@ -20,17 +23,16 @@
   <h2 class="text-color-2">the ultimate mattress solution</h2></header>
 
 <!--- section 2 of the website with the 4 squares --->
-  <section>
-    <div class="grid">
+  <section class="benefits-block grid">
       <div class="col-6_sm-12 benefits-img1">
       </div>
 
-      <div class="col-6_sm-12 benefits-block">
+      <div class="col-6_sm-12-middle benefits-text">
         <h2 class="margin-bottom5"> built to last a <span class="text-color-1">lifetime</span></h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
 
-      <div class="col-6_sm-12 benefits-block">
+      <div class="col-6_sm-12-middle benefits-text">
         <h2 class="margin-bottom5"> so <span class="text-color-1">soft</span> you'll melt</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
@@ -41,25 +43,25 @@
 
 <!--- SECTION 2 --->
 
-  <section class="features">
+  <section class="features center-text">
     <div class="grid">
       <div class="col-12">
         <h3><span class="text-color-1">features</span> you will love</h3>
       </div>
 
-    <div class="col-3_sm-6 center-text">
+    <div class="col-3_sm-6_xs-12">
       <i class="fas fa-cloud fa-2x margin-bottom5"></i>
       <p class="left-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
     </div>
-    <div class="col-3_sm-6 center-text">
+    <div class="col-3_sm-6_xs-12 center-text">
       <i class="fas fa-cloud fa-2x margin-bottom5"></i>
       <p class="left-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
     </div>
-    <div class="col-3_sm-6 center-text">
+    <div class="col-3_sm-6_xs-12 center-text">
       <i class="fas fa-cloud fa-2x margin-bottom5"></i>
       <p class="left-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
     </div>
-    <div class="col-3_sm-6 center-text">
+    <div class="col-3_sm-6_xs-12 center-text">
       <i class="fas fa-cloud fa-2x margin-bottom5"></i>
       <p class="left-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
     </div>
@@ -93,18 +95,18 @@
 </section>
 
   <!---SECTION 5 ---->
-<section>
+<section class="contact-form">
   <div class="grid">
-    <div class="col-6_sm-12">
-  <h2><span>let's connect</span></h2>
+    <div class="col-6_sm-12 column">
+  <h2 class="margin-bottom5">let's <span class="text-color-1"><br>connect</span></h2>
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
     <div class="col-6_sm-12">
       <form action="https://formspree.io/wairimu.macharia@gmail.com" method="POST">
         <input type="text" placeholder="Your name" name="name">
         <input type="email" placeholder="Your email" name="_replyto">
-        <textarea></textarea>
-        <input type="submit" placeholder="Tell us what you want say..." value="Send">
+        <textarea placeholder="Tell us what you want say..."></textarea>
+        <input class="button" type="submit" value="SUBMIT">
     </form>
     </div>
 </body>
