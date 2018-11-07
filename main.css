@@ -158,3 +158,10 @@ input, textarea
     border-radius: 5px;
     outline: none;
 }
+
+@media(max-width:576px) {
+  .flex-end {
+    order:2;
+
+  }
+}
